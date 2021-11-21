@@ -4,7 +4,6 @@ Created on Sun Nov 21 08:19:48 2021
 
 @author: Emilio Porras
 """
-from gestion.zona import Zona
 
 class Zoologico:
     def __init__(self, nombre, ubicacion):
