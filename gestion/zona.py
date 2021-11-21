@@ -6,7 +6,7 @@ Created on Sun Nov 21 08:19:49 2021
 """
 
 class Zona:
-    def __init__(self, nombre, zoo):
+    def __init__(self, nombre=None, zoo=None):
         _nombre = nombre
         _zoo = zoo
         _animales = list()
