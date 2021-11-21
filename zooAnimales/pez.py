@@ -13,8 +13,8 @@ class Pez(Animal):
     bacalaos = 0
     def __init__(self, nombre, edad, habitat, genero, colorEscamas, cantidadAletas):
         super().__init__(nombre, edad, habitat, genero)
-        _colorEscamas = colorEscamas
-        _cantidadAletas = cantidadAletas
+        self._colorEscamas = colorEscamas
+        self._cantidadAletas = cantidadAletas
         self._listado.append(self)
         
     @classmethod    

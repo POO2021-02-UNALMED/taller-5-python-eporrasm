@@ -4,12 +4,13 @@ Created on Sun Nov 21 08:19:49 2021
 
 @author: Emilio Porras
 """
+from zooAnimales import *
 
 class Zona:
     def __init__(self, nombre=None, zoo=None):
-        _nombre = nombre
-        _zoo = zoo
-        _animales = list()
+        self._nombre = nombre
+        self._zoo = zoo
+        self._animales = list()
         
     def agregarAnimales(self, animal):
         self._animales.append(animal)

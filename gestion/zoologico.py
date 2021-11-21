@@ -7,9 +7,9 @@ Created on Sun Nov 21 08:19:48 2021
 
 class Zoologico:
     def __init__(self, nombre=None, ubicacion=None):
-        _nombre = nombre
-        _ubicacion = ubicacion
-        _zonas = list()
+        self._nombre = nombre
+        self._ubicacion = ubicacion
+        self._zonas = list()
         
     def agregerZonas(self, zona):
         self._zonas.append(zona)
