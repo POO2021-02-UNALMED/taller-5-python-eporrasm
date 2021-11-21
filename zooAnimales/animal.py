@@ -5,7 +5,6 @@ Created on Sun Nov 21 07:27:06 2021
 @author: Emilio Porras
 """
 from gestion import *
-from zooAnimales import *
 
 class Animal:
     _totalAnimales = 0
