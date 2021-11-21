@@ -19,3 +19,21 @@ class Zoologico:
         for zona in self._zonas:
             suma += zona.cantidadAnimales()
         return suma
+    
+    def getNombre(self):
+        return self._nombre
+    
+    def getUbicacion(self):
+        return self._ubicacion
+    
+    def getZona(self):
+        return self._zonas
+    
+    def setNombre(self, x):
+        self._nombre = x
+        
+    def setUbicacion(self, x):
+        self._ubicacion = x
+        
+    def setZonas(self, x):
+        self._zonas = x

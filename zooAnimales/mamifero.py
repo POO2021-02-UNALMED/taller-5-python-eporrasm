@@ -30,4 +30,22 @@ class Mamifero(Animal):
         cls.leones += 1
         return Mamifero(nombre, edad, "selva", genero, True, 4)
         
+    @classmethod
+    def getListado(cls):
+        return cls._listado
     
+    @classmethod
+    def setListado(cls, listado):
+        cls._listado = listado
+        
+    def isPelaje(self):
+        return self._pelaje
+    
+    def setPelaje(self,x):
+        self._pejale = x
+        
+    def setPatas(self,x):
+        self._patas = x
+        
+    def getPatas(self):
+        return self._patas

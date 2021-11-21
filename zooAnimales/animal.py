@@ -31,3 +31,30 @@ class Animal:
         else:
             return "Mi nombre es "+str(self._nombre)+", tengo una edad de "+str(self._edad)+", habito en "+self._habitat+" y mi genero es "+str(self._genero)+", la zona en la que me ubico es "+str(self._zona)+" en el "+str(self._zona.getZoologico())
     
+    def getNombre(self):
+        return self._nombre
+    
+    def getHabitat(self):
+        return self._habitat
+    
+    def getGenero(self):
+        return self._genero
+    
+    def getEdad(self):
+        return self._edad
+    
+    def getZona(self):
+        return self._zona
+    
+    def setNombre(self, x):
+        self._nombre = x
+        
+    def setEdad(self, x):
+        self._edad = x
+        
+    def setHabitat(self, x):
+        self._habitat = x
+        
+    def setGenero(self, x):
+        self._genero = x
+        
