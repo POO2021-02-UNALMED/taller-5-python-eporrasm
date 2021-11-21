@@ -4,8 +4,12 @@ Created on Sun Nov 21 07:27:06 2021
 
 @author: Emilio Porras
 """
-from gestion import *
-from zooAnimales import *
+from gestion.zona import Zona
+from zooAnimales.anfibio import Anfibio
+from zooAnimales.ave import Ave
+from zooAnimales.mamifero import Mamifero
+from zooAnimales.pez import Pez
+from zooAnimales.reptil import Reptil
 
 class Animal:
     _totalAnimales = 0
